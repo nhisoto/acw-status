@@ -7,7 +7,6 @@ resolved: false
 severity: disrupted
 affected:
   - A-Frames
-  - Internet
 section: issue
 ---
 
