@@ -6,7 +6,8 @@ resolved: false
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
-  - A-Frames, Internet
+  - A-Frames
+  - Internet
 section: issue
 ---
 
