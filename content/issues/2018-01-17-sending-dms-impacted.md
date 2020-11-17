@@ -1,5 +1,5 @@
 ---
-title: Degregaded internet service
+title: Degraded internet service
 date: 2020-11-17 11:24:00
 resolved: false
 # resolvedWhen: 2017-12-17 16:58:00
