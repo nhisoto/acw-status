@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: AC Wireless
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -121,12 +121,15 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: East Coast      
-    - name: Uncategorized
-      untitled: true
+    - name: A-Frames
+      description: A-Frames internet customers
+      closed: false
+    - name: Birch Hill
+    - name: Ester Dome
+    - name: Current Court
+    - name: Wilson
+#     - name: Uncategorized
+#       untitled: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -134,16 +137,18 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: Internet
+      category: A-Frames
+    - name: Internet
+      category: Birch Hill
+    - name: Internet
+#       description: The guts of the application.
+      category: Ester Dome
+    - name: Internet
+#       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      category: Current Court
+    - name: Internet
+      category: Wilson
 
   # What date format to use?
   #
