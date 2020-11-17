@@ -121,13 +121,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: A-Frames
-      description: A-Frames internet customers
+    - name: Portal
       closed: false
-    - name: Birch Hill
-    - name: Ester Dome
-    - name: Current Court
-    - name: Wilson
+    - name: Internet
+      closed: false
 #     - name: Uncategorized
 #       untitled: true
 
@@ -137,18 +134,18 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Internet
-      category: A-Frames
-    - name: Internet
-      category: Birch Hill
-    - name: Internet
+    - name: A-Frames
+      category: Internet
+    - name: Birch Hill
+      category: Internet
+    - name: Ester Dome
 #       description: The guts of the application.
-      category: Ester Dome
-    - name: Internet
+      category: Internet
+    - name: Current Court
 #       description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Current Court
-    - name: Internet
-      category: Wilson
+      category: Internet
+    - name: Wilson
+      category: Internet
 
   # What date format to use?
   #
