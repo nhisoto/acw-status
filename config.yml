@@ -146,6 +146,10 @@ params:
       category: Internet
     - name: Wilson
       category: Internet
+    - name: Login
+      category: Portal
+    - name: Payment Processing
+      category: Portal
 
   # What date format to use?
   #
